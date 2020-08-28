@@ -26,6 +26,7 @@ jobs:
       - name: Run CI
         run: |
           cd javascript
+          cp javascript/README.md ../README.md
           npm ci
       - name: Run Semantic Release
         run: |
