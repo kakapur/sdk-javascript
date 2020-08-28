@@ -34,14 +34,7 @@ jobs:
           cd javascript
           cp README.md ../README.md
           npm ci
-      - name: NPM publish if it is auto PR
-        if: startsWith(github.ref, 'create-pull-request/patch') == true
-        run: |
-          echo "npm publish"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Run Semantic Release
-        if: startsWith(github.ref, 'create-pull-request/patch') != true
         run: |
           cd javascript
           npm install --save-dev semantic-release
