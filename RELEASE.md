@@ -1,6 +1,6 @@
-## RELEASE PROCESS
+# RELEASE PROCESS
 
-# From OpenAPI repositroy automatic pull request
+## From OpenAPI repositroy automatic pull request
 
 1. if the branch name contains "create-pull-request/patch-",
    then
@@ -13,6 +13,6 @@
            create a new branch to maintain the 1.x.x version
      3. commit the change and merge to master
      
-# From contributors
+## From contributors
 
 1. double check if the commit messsage follows the guidance addressed in the CONTRIBUTING.md to ensure the version will be correctly bumped and the release notes will be automatically created.
