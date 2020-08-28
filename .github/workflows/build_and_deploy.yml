@@ -16,6 +16,10 @@ jobs:
           registry-url: https://registry.npmjs.org
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Get Branch Info
+        run: |
+          echo "github.base_ref is: ${{ github.base_ref }}"
+
       - name: Install, Build
         run: |
           sudo npm install -g babel-cli
