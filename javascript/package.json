@@ -1,6 +1,6 @@
 {
   "name": "trulioo-sdk",
-  "version": "1.5",
+  "version": "1.5.0",
   "description": "Trulioo JavaScript SDK",
   "license": "Apache-2.0",
   "main": "dist/index.js",
