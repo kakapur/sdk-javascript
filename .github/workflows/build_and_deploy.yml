@@ -18,9 +18,9 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Get Branch Info
         run: |
-          echo "github.base_ref is: ${BASE_BRANCH}"
+          echo "github.ref is: ${BASE_BRANCH}"
         env:
-          BASE_BRANCH: ${{ github.base_ref }}
+          BASE_BRANCH: ${{ github.ref }}
 
       - name: Install, Build
         run: |
@@ -35,13 +35,13 @@ jobs:
           cp README.md ../README.md
           npm ci
       - name: NPM publish if it is auto PR
-        if: startsWith(github.head_ref, 'create-pull-request/patch') == true
+        if: startsWith(github.ref, 'create-pull-request/patch') == true
         run: |
           echo "npm publish"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Run Semantic Release
-        if: startsWith(github.head_ref, 'create-pull-request/patch') != true
+        if: startsWith(github.ref, 'create-pull-request/patch') != true
         run: |
           cd javascript
           npm install --save-dev semantic-release
