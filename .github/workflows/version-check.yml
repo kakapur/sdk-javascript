@@ -20,5 +20,5 @@ jobs:
         run: |
           ls
           ls ./bin/utils/
-          chmod +x ./bin/utils/check-version.sh
+          chmod +x ./bin/utils/checkVersion.sh
           cd javascript
