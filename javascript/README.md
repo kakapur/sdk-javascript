@@ -4,6 +4,7 @@ TruliooSdk - JavaScript client for trulioo-sdk
 Trulioo SDK
 
 - API version: 0.1.0
+- Package version: 0.1.0
 - Build package: org.openapitools.codegen.languages.JavascriptClientCodegen
 
 ## Installation
@@ -19,8 +20,7 @@ npm install trulioo-sdk --save
 ```
 
 ## Getting Started 
-
-Please follow the [installation](#installation) instruction and execute the following JS code:
+Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
 var TruliooSdk = require('trulioo-sdk');
