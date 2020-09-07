@@ -35,7 +35,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new TruliooSdk.ConfigurationApi();
-let mode = "'trial'"; // String | free trial or live
+let mode = 'trial'; // String | free trial or live
 let countryCode = "countryCode_example"; // String | Country alpha2 code
 let configurationName = "'Identity Verification'"; // String | The product configuration. Currently \"Identity Verification\" for all products.
 apiInstance.getConsents(mode, countryCode, configurationName, (error, data, response) => {
@@ -90,7 +90,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new TruliooSdk.ConfigurationApi();
-let mode = "'trial'"; // String | free trial or live
+let mode = 'trial'; // String | free trial or live
 let configurationName = "'Identity Verification'"; // String | The product configuration. Currently \"Identity Verification\" for all products.
 apiInstance.getCountryCodes(mode, configurationName, (error, data, response) => {
   if (error) {
@@ -143,7 +143,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new TruliooSdk.ConfigurationApi();
-let mode = "'trial'"; // String | free trial or live
+let mode = 'trial'; // String | free trial or live
 let countryCode = "countryCode_example"; // String | Country alpha2 code
 apiInstance.getCountrySubdivisions(mode, countryCode, (error, data, response) => {
   if (error) {
@@ -196,7 +196,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new TruliooSdk.ConfigurationApi();
-let mode = "'trial'"; // String | free trial or live
+let mode = 'trial'; // String | free trial or live
 let configurationName = "'Identity Verification'"; // String | The product configuration. Currently \"Identity Verification\" for all products.
 let countryCode = "countryCode_example"; // String | Country alpha2 code
 apiInstance.getDatasources(mode, configurationName, countryCode, (error, data, response) => {
@@ -251,7 +251,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new TruliooSdk.ConfigurationApi();
-let mode = "'trial'"; // String | free trial or live
+let mode = 'trial'; // String | free trial or live
 let countryCode = "countryCode_example"; // String | Call CountryCodes to get the countries available to you.
 let configurationName = "'Identity Verification'"; // String | Identity Verification
 apiInstance.getDetailedConsents(mode, countryCode, configurationName, (error, data, response) => {
@@ -306,7 +306,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new TruliooSdk.ConfigurationApi();
-let mode = "'trial'"; // String | free trial or live
+let mode = 'trial'; // String | free trial or live
 let countryCode = "countryCode_example"; // String | Country alpha2 code
 let configurationName = "'Identity Verification'"; // String | The product configuration. Currently \"Identity Verification\" for all products.
 apiInstance.getFields(mode, countryCode, configurationName, (error, data, response) => {
@@ -361,7 +361,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new TruliooSdk.ConfigurationApi();
-let mode = "'trial'"; // String | free trial or live
+let mode = 'trial'; // String | free trial or live
 let countryCode = "countryCode_example"; // String | Country alpha2 code
 let configurationName = "'Identity Verification'"; // String | The product configuration. Currently \"Identity Verification\" for all products.
 apiInstance.getRecommendedFields(mode, countryCode, configurationName, (error, data, response) => {
@@ -416,7 +416,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new TruliooSdk.ConfigurationApi();
-let mode = "'trial'"; // String | free trial or live
+let mode = 'trial'; // String | free trial or live
 let configurationName = "'Identity Verification'"; // String | The product configuration. Currently \"Identity Verification\" for all products.
 let countryCode = "countryCode_example"; // String | Country alpha2 code
 apiInstance.getTestEntities(mode, configurationName, countryCode, (error, data, response) => {

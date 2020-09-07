@@ -29,7 +29,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new TruliooSdk.VerificationsApi();
-let mode = "'trial'"; // String | free trial or live
+let mode = 'trial'; // String | free trial or live
 let id = "id_example"; // String | The TransactionRecordID from the Verify response, this will be a GUID
 apiInstance.getTransactionRecord(mode, id, (error, data, response) => {
   if (error) {
@@ -82,7 +82,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new TruliooSdk.VerificationsApi();
-let mode = "'trial'"; // String | free trial or live
+let mode = 'trial'; // String | free trial or live
 let verifyRequest = new TruliooSdk.VerifyRequest(); // VerifyRequest | 
 apiInstance.verify(mode, verifyRequest, (error, data, response) => {
   if (error) {

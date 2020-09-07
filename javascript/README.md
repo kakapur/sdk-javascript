@@ -20,7 +20,8 @@ npm install trulioo-sdk --save
 ```
 
 ## Getting Started 
-Please follow the [installation](#installation) instruction and execute the following JS code:
+
+Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
 var TruliooSdk = require('trulioo-sdk');
@@ -33,7 +34,7 @@ ApiKeyAuth.apiKey = "YOUR API KEY"
 //ApiKeyAuth.apiKeyPrefix['x-trulioo-api-key'] = "Token"
 
 var api = new TruliooSdk.ConfigurationApi()
-var mode = "'trial'"; // {String} free trial or live
+var mode = "trial'; // {String} free trial or live
 var countryCode = "COUNTRY-CODE"; // {String} Country alpha2 code
 var configurationName = "Identity Verification"; // {String} The product configuration. Currently \"Identity Verification\" for all products.
 var callback = function(error, data, response) {
