@@ -28,7 +28,7 @@ ApiKeyAuth.apiKey = 'YOUR API KEY';
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
 let apiInstance = new TruliooSdk.ConnectionApi();
-let mode = "'trial'"; // String | free trial or live
+let mode = 'trial'; // String | free trial or live
 apiInstance.testAuthentication(mode, (error, data, response) => {
   if (error) {
     console.error(error);
