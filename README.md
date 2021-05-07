@@ -1,6 +1,6 @@
 # Trulioo JavaScript SDK
 
-- Package version: 1.0.1
+- Package version: 1.0.2
 - API version: v1
 - Build package: org.openapitools.codegen.languages.JavascriptClientCodegen
 
@@ -17,7 +17,7 @@ npm install trulioo-sdk
 ## Sample Application
 
 Check out our sample application for this SDK in the
-[sample-app](https://github.com/Trulioo/sdk-javascript/tree/1.0.1/sample-app) folder.
+[sample-app](https://github.com/Trulioo/sdk-javascript/tree/1.0.2/sample-app) folder.
 
 ## Getting Started
 
