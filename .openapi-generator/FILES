@@ -13,7 +13,6 @@ docs/BusinessSearchRequest.md
 docs/BusinessSearchRequestBusinessSearchModel.md
 docs/BusinessSearchResponse.md
 docs/BusinessSearchResponseIndustryCode.md
-docs/CommonApi.md
 docs/Communication.md
 docs/ConfigurationApi.md
 docs/ConnectionApi.md
@@ -44,15 +43,12 @@ docs/TransactionStatus.md
 docs/VerificationsApi.md
 docs/VerifyRequest.md
 docs/VerifyResult.md
-docs/WorldCheckApi.md
 package.json
 src/ApiClient.js
 src/api/BusinessApi.js
-src/api/CommonApi.js
 src/api/ConfigurationApi.js
 src/api/ConnectionApi.js
 src/api/VerificationsApi.js
-src/api/WorldCheckApi.js
 src/index.js
 src/model/Address.js
 src/model/AppendedField.js

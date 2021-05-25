@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**location** | [**Location**](Location.md) |  | [optional] 
 **testEntityName** | **String** | Friendly name for the test entity | [optional] 
 **personInfo** | [**PersonInfo**](PersonInfo.md) |  | [optional] 
+**location** | [**Location**](Location.md) |  | [optional] 
 **communication** | [**Communication**](Communication.md) |  | [optional] 
 **driverLicence** | [**DriverLicence**](DriverLicence.md) |  | [optional] 
 **nationalIds** | [**[NationalId]**](NationalId.md) | National Identification Information | [optional] 

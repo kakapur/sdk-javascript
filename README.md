@@ -1,6 +1,6 @@
 # Trulioo JavaScript SDK
 
-- Package version: 1.0.2
+- Package version: 1.0.3
 - API version: v1
 - Build package: org.openapitools.codegen.languages.JavascriptClientCodegen
 
@@ -17,7 +17,7 @@ npm install trulioo-sdk
 ## Sample Application
 
 Check out our sample application for this SDK in the
-[sample-app](https://github.com/Trulioo/sdk-javascript/tree/1.0.2/sample-app) folder.
+[sample-app](https://github.com/Trulioo/sdk-javascript/tree/1.0.3/sample-app) folder.
 
 ## Getting Started
 
@@ -67,7 +67,6 @@ Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *Trulioo.BusinessApi* | [**getBusinessSearchResult**](docs/BusinessApi.md#getBusinessSearchResult) | **GET** /{mode}/business/v1/search/transactionrecord/{id} | Get Business Search Result
 *Trulioo.BusinessApi* | [**search**](docs/BusinessApi.md#search) | **POST** /{mode}/business/v1/search | Search
-*Trulioo.CommonApi* | [**commonIpInfo**](docs/CommonApi.md#commonIpInfo) | **GET** /{mode}/common/v1/ip-info | Common Ip Info
 *Trulioo.ConfigurationApi* | [**getBusinessRegistrationNumbers**](docs/ConfigurationApi.md#getBusinessRegistrationNumbers) | **GET** /{mode}/configuration/v1/businessregistrationnumbers/{countryCode}/{jurisdictionCode} | Get Business Registration Numbers
 *Trulioo.ConfigurationApi* | [**getConsents**](docs/ConfigurationApi.md#getConsents) | **GET** /{mode}/configuration/v1/consents/{configurationName}/{countryCode} | Get Consents
 *Trulioo.ConfigurationApi* | [**getCountryCodes**](docs/ConfigurationApi.md#getCountryCodes) | **GET** /{mode}/configuration/v1/countrycodes/{configurationName} | Get Country Codes
@@ -88,7 +87,6 @@ Class | Method | HTTP request | Description
 *Trulioo.VerificationsApi* | [**getTransactionRecordVerbose**](docs/VerificationsApi.md#getTransactionRecordVerbose) | **GET** /{mode}/verifications/v1/transactionrecord/{id}/verbose | Get Transaction Record Verbose
 *Trulioo.VerificationsApi* | [**getTransactionStatus**](docs/VerificationsApi.md#getTransactionStatus) | **GET** /{mode}/verifications/v1/transaction/{id}/status | Get Transaction Status
 *Trulioo.VerificationsApi* | [**verify**](docs/VerificationsApi.md#verify) | **POST** /{mode}/verifications/v1/verify | Verify
-*Trulioo.WorldCheckApi* | [**getWorldCheckProfile**](docs/WorldCheckApi.md#getWorldCheckProfile) | **GET** /{mode}/worldcheck/v1/profile/{originalTransactionID}/{referenceID} | Get World Check Profile
 
 ## Documentation for Models
 
